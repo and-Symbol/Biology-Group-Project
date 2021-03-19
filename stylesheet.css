@@ -1,19 +1,31 @@
 body {
-  background-color: powderblue;
+  background-color: #333;
 }
-h1 {
-  color: blue;
-}
-p {
-  color: red;
-}
+
 /* This is meant to be the thing that allows the title
-to be in the top right corner*/\
-.topright {
-  position: absolute;
-  top: 8px;
-  right: 16px;
-  font-size: 18px;
+to be in the top right corner*/
+.titlecolor {
+  margin: fixed
+  width: 5%;
+  background-color: lightgray;
+}
+
+.title {
+  font-size: 40px;
+  font-family: courier;
+
+  text-align: center;
+}
+
+.subtitle {
+  margin: auto
+  width: 50%;
+  padding-left: 128px;
+  font-size: 24px;
+  font-family: courier;
+  color: #3700B3;
+
+  text-align: center;
 
 }
 
@@ -25,7 +37,7 @@ to be in the top right corner*/\
   z-index: 1; /* Stay on top */
   top: 0;
   left: 0;
-  background-color: #111; /* Black*/
+  background-color: #333; /* Dark Gray*/
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
@@ -57,25 +69,28 @@ to be in the top right corner*/\
 
 /* The button used to open the sidebar */
 .openbtn {
-  font-size: 20px;
+  font-size: 64px;
   cursor: pointer;
-  background-color: #111;
-  color: white;
-  padding: 10px 15px;
+  background-color: lightgray;
+  color: #333;
+  padding: 24px 32px;
   border: none;
+
 }
 
 .openbtn:hover {
-  background-color: #444;
+  background-color: #BB86FC;
 }
 
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+/* Style page content - use this if you want to push the
+page content to the right when you open the side navigation */
 #main {
   transition: margin-left .5s; /* If you want a transition effect */
   padding: 20px;
 }
 
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+/* On smaller screens, where height is less than 450px, change the
+ style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
