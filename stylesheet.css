@@ -41,6 +41,10 @@ to be in the top right corner*/
   display: inline-block;
 
   padding-left: 128px;
+
+  border: none;
+
+  background-color: #fffdd0;
 }
 
 .subtitle {
