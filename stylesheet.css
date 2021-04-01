@@ -3,20 +3,42 @@ body {
 }
 
 h1 {
-  padding-left: 60px;
+
   color: #fffdd0;
 
-  font-size: 40px;
+  font-size: 100px;
   font-family: courier;
   font-weight: normal;
+
+  text-align: center;
+}
+
+h2 {
+
+  color: #fffdd0;
+
+  font-size: 48px;
+  font-family: courier;
+  font-weight: normal;
+
+  text-align: center;
+}
+
+iframe {
+  margin: 0 auto;
+  display: block;
+  background-color: inherit;
+  border: none;
+
 }
 
 p1 {
+  text-align: center;
   padding-left: 80px;
   color: #fffdd0;
 
   font-size: 24px;
-  font-family: times;
+  font-family: garamond;
   font-weight: normal;
 }
 
@@ -29,7 +51,7 @@ to be in the top right corner*/
 }
 
 .title {
-  font-size: 40px;
+  font-size: 64px;
   font-family: courier;
   font-weight: bold;
 
@@ -38,9 +60,11 @@ to be in the top right corner*/
 
   margin: 0;
 
-  display: inline-block;
+  display: block;
 
-  padding-left: 128px;
+  text-align: center;
+
+  padding-right: 148px;
 
   border: none;
 
