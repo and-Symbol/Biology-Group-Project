@@ -91,6 +91,7 @@ to be in the top right corner*/
   margin: fixed
   width: 5%;
   background-color: #fffdd0;
+  color: #333;
 }
 
 .title {
@@ -144,18 +145,18 @@ to be in the top right corner*/
 /* The sidebar links */
 .sidebar a {
   font-family: courier;
-  padding: 8px 8px 8px 32px;
+  padding: 8px 8px 8px 64px;
   text-decoration: none;
-  font-size: 25px;
-  color: #333;
+  font-size: 42px;
+  color: #555;
   display: block;
   transition: 0.3s;
-
+  font-weight: bold;
 }
 
 /* When you mouse over the navigation links, change their color */
 .sidebar a:hover {
-  color: #f1f1f1;
+  color: black;
 }
 
 /* Position and style the close button (top right corner) */
@@ -181,7 +182,8 @@ to be in the top right corner*/
 }
 
 .openbtn:hover {
-  background-color: #BB86FC;
+  background-color: #333;
+  color: #fffdd0;
 }
 
 /* Style page content - use this if you want to push the
