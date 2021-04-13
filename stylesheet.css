@@ -3,24 +3,18 @@ body {
 }
 
 h1 {
-
   color: #fffdd0;
-
   font-size: 100px;
   font-family: courier;
   font-weight: normal;
-
   text-align: center;
 }
 
 h2 {
-
   color: #fffdd0;
-
   font-size: 48px;
   font-family: courier;
   font-weight: normal;
-
   text-align: center;
 }
 
@@ -29,17 +23,67 @@ iframe {
   display: block;
   background-color: inherit;
   border: none;
+  padding-bottom: 120px;
+}
 
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about{
+  padding-bottom: 60px;
 }
 
 p1 {
   text-align: center;
-  padding-left: 80px;
   color: #fffdd0;
-
   font-size: 24px;
   font-family: garamond;
   font-weight: normal;
+}
+
+.homepage {
+  margin-left: 120px;
+  margin-right: 120px;
+  color: #fffdd0;
+  font-size: 24px;
+  font-family: garamond;
+  font-weight: normal;
+
+  padding-bottom: 40px;
+}
+
+.reference {
+  padding-left: 60px;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.reference-link {
+  padding-left: 80px;
+  padding-bottom: 80px;
+  color: #fffdd0;
+  font-size: 24px;
+  font-family: garamond;
+  font-weight: normal;
+  height:auto;
+}
+
+.paragraph {
+  height: auto;
+  text-align: left;
+  padding-left: 60px;
+  padding bottom: 30px;
+}
+
+.bottom {
+  padding-bottom: 120px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 /* Style the button that is used to open and close the collapsible content */
@@ -80,7 +124,6 @@ p1 {
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   background-color: #fffdd0;
-
   font-size: 32px;
   color: #555
 }
@@ -88,8 +131,7 @@ p1 {
 /* This is meant to be the thing that allows the title
 to be in the top right corner*/
 .titlecolor {
-  margin: fixed
-  width: 5%;
+  margin: fixed width: 5%;
   background-color: #fffdd0;
   color: #333;
 }
@@ -98,48 +140,45 @@ to be in the top right corner*/
   font-size: 64px;
   font-family: courier;
   font-weight: bold;
-
   padding-top: 30px;
   padding-bottom: 80px;
-
   margin: 0;
-
   display: block;
-
   text-align: center;
-
   padding-right: 148px;
-
   border: none;
-
   background-color: #fffdd0;
 }
 
 .subtitle {
-  margin: auto
-  width: 50%;
+  margin: auto width: 50%;
   font-size: 24px;
   font-family: courier;
   color: #3700B3;
-
   padding-top: 60px;
-
   text-align: center;
-
 }
 
 /* The sidebar menu */
 .sidebar {
-  height: 100%; /* 100% Full-height */
-  width: 0; /* 0 width - change this with JavaScript */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Stay on top */
+  height: 100%;
+  /* 100% Full-height */
+  width: 0;
+  /* 0 width - change this with JavaScript */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Stay on top */
   top: 0;
   left: 0;
-  background-color: #fffdd0; /* cream*/
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 10px; /* Place content 60px from the top */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+  background-color: #fffdd0;
+  /* cream*/
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 10px;
+  /* Place content 60px from the top */
+  transition: 0.5s;
+  /* 0.5 second transition effect to slide in the sidebar */
 }
 
 /* The sidebar links */
@@ -171,14 +210,12 @@ to be in the top right corner*/
 /* The button used to open the sidebar */
 .openbtn {
   float: left;
-
   font-size: 64px;
   cursor: pointer;
   background-color: #fffdd0;
   color: #333;
   padding: 24px 32px;
   border: none;
-
 }
 
 .openbtn:hover {
@@ -189,13 +226,19 @@ to be in the top right corner*/
 /* Style page content - use this if you want to push the
 page content to the right when you open the side navigation */
 #main {
-  transition: margin-left .5s; /* If you want a transition effect */
+  transition: margin-left .5s;
+  /* If you want a transition effect */
   padding: 20px;
 }
 
 /* On smaller screens, where height is less than 450px, change the
  style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
-  .sidebar {padding-top: 15px;}
-  .sidebar a {font-size: 18px;}
+  .sidebar {
+    padding-top: 15px;
+  }
+
+  .sidebar a {
+    font-size: 18px;
+  }
 }
